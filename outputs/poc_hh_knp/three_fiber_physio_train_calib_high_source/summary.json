@@ -1,0 +1,83 @@
+{
+  "bundle_metrics": {
+    "cnap_like_amplitude_mV": 0.008293450416918537,
+    "cv_max_m_per_s": 11.076881953609602,
+    "cv_mean_m_per_s": 11.076881953609602,
+    "cv_min_m_per_s": 11.076881953609602,
+    "cv_std_m_per_s": 0.0,
+    "cv_valid_fiber_count": 3.0,
+    "latency_max_ms": 1.04,
+    "latency_mean_ms": 1.04,
+    "latency_min_ms": 1.04,
+    "latency_spread_ms": 0.0,
+    "latency_std_ms": 0.0,
+    "recruited_fiber_count": 3.0,
+    "recruited_fraction": 1.0
+  },
+  "case_name": "three_fiber_physio_train_calib_high_source",
+  "metadata": {
+    "bundle_id": "architecture_validation",
+    "dt_fast_ms": 0.01,
+    "dt_slow_ms": 0.1,
+    "electrode_count": 2,
+    "enable_knp": true,
+    "enable_vc": true,
+    "feedback_enabled": true,
+    "feedback_last_phi_stats_mV": {
+      "max": 2.135619038485059e-10,
+      "mean": -7.941367239862832e-11,
+      "min": -2.3091662435670123e-08
+    },
+    "feedback_last_reversals_mV": {
+      "E_ca_mV": 125.51723676679342,
+      "E_cl_mV": -89.37498955346541,
+      "E_k_mV": -95.02257558889889,
+      "E_na_mV": 66.5982132715388
+    },
+    "fiber_count": 3,
+    "knp_species": "K",
+    "layout_name": "custom_demo",
+    "reporting_fiber_id": 0,
+    "stimulated_fiber_ids": null,
+    "t_stop_ms": 20.0,
+    "vc_material_model": "material_aware_shielded_concentric_layers"
+  },
+  "summary": {
+    "bundle_id": "architecture_validation",
+    "delta_K_abs_time_integral_mM_ms": 1.886324683106899e-05,
+    "delta_K_final_l2_mM": 2.5754467885957245e-06,
+    "delta_K_final_max_mM": 1.4617451924436864e-06,
+    "delta_K_final_mean_mM": 7.743858344172102e-09,
+    "delta_K_peak_abs_mM": 1.5204756413922382e-06,
+    "delta_K_time_to_peak_ms": 14.9,
+    "electrode_count": 2,
+    "feedback_E_ca_mV": 125.51723676679342,
+    "feedback_E_cl_mV": -89.37498955346541,
+    "feedback_E_k_mV": -95.02257558889889,
+    "feedback_E_na_mV": 66.5982132715388,
+    "feedback_enabled": true,
+    "feedback_phi_max_mV": 2.135619038485059e-10,
+    "feedback_phi_mean_mV": -7.941367239862832e-11,
+    "feedback_phi_min_mV": -2.3091662435670123e-08,
+    "feedback_phi_peak_abs_mV": 2.3091662435670123e-08,
+    "fiber_count": 3,
+    "knp_max_abs_source_mM_per_ms": 3.043603525201391e-08,
+    "knp_phi_abs_time_integral_mV_ms": 3.016800946132937e-07,
+    "knp_phi_final_max_mV": 2.1356190385950482e-10,
+    "knp_phi_final_mean_mV": 1.3823548067852697e-24,
+    "knp_phi_final_min_mV": -2.41547560939745e-08,
+    "knp_phi_max_mV": 2.146854443177284e-10,
+    "knp_phi_min_mV": -2.44085796715735e-08,
+    "knp_phi_time_to_peak_ms": 15.5,
+    "peak_vc_by_electrode_mV": {
+      "E_far": 0.005567795696998501,
+      "E_near": 0.0019843601707003724
+    },
+    "peak_vm_by_fiber_mV": {
+      "0": 94.40055329655206,
+      "1": 94.40055329655206,
+      "2": 94.40055329655206
+    },
+    "reporting_fiber_id": 0
+  }
+}

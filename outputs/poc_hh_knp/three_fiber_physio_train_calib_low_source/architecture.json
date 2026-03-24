@@ -1,0 +1,77 @@
+{
+  "bundle_id": "architecture_validation",
+  "length_um": 20000.0,
+  "layout_name": "custom_demo",
+  "fibers": [
+    {
+      "fiber_id": 0,
+      "fascicle_id": 0,
+      "center_y_um": 0.0,
+      "center_z_um": 0.0,
+      "fiber_diameter_um": null,
+      "axon_diameter_um": null,
+      "label": "center_fiber",
+      "metadata": {}
+    },
+    {
+      "fiber_id": 1,
+      "fascicle_id": 0,
+      "center_y_um": 80.0,
+      "center_z_um": 0.0,
+      "fiber_diameter_um": null,
+      "axon_diameter_um": null,
+      "label": "right_fiber",
+      "metadata": {}
+    },
+    {
+      "fiber_id": 2,
+      "fascicle_id": 0,
+      "center_y_um": -80.0,
+      "center_z_um": 0.0,
+      "fiber_diameter_um": null,
+      "axon_diameter_um": null,
+      "label": "left_fiber",
+      "metadata": {}
+    }
+  ],
+  "fascicles": [
+    {
+      "fascicle_id": 0,
+      "center_y_um": 0.0,
+      "center_z_um": 0.0,
+      "radius_um": 160.0,
+      "label": "main_fascicle",
+      "metadata": {}
+    }
+  ],
+  "electrodes": [
+    {
+      "kind": "point",
+      "x_um": 5000.0,
+      "y_um": 100.0,
+      "z_um": 0.0,
+      "radius_um": null,
+      "contact_count": 1,
+      "spacing_um": null,
+      "label": "E_near",
+      "metadata": {}
+    },
+    {
+      "kind": "point",
+      "x_um": 10000.0,
+      "y_um": 250.0,
+      "z_um": 0.0,
+      "radius_um": null,
+      "contact_count": 1,
+      "spacing_um": null,
+      "label": "E_far",
+      "metadata": {}
+    }
+  ],
+  "material_regions": [],
+  "cuffs": [],
+  "outer_nerve_radius_um": 200.0,
+  "metadata": {
+    "source": "architecture_presets.make_three_fiber_demo_architecture"
+  }
+}
